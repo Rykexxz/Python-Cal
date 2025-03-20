@@ -40,7 +40,7 @@ p1 = [
     {
         "type": "list",
         "message": "O você quer acessar?",
-        "choices": ["Modo", "Representação", "Sair"]
+        "choices": ["Calculadora", "Representação", "Sair"]
     },
 ]
 p2 = [
@@ -62,7 +62,7 @@ f = True
 
 while f == True:
     r1 = prompt(p1)
-    if r1 == {0: 'Modo'}:
+    if r1 == {0: 'Calculadora'}:
         r2 = prompt(p2)
         if r2 == {0: 'Simples'}:
             r3 = prompt(p3)
