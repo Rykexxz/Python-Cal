@@ -1,6 +1,7 @@
 from InquirerPy import prompt
 
 print('Bem vindo(a) a Calculadora Regra de 3 em Python\n')
+
 # Funções
 def n_s_cal():
     x = float(input('Digite o \"x\": '))
